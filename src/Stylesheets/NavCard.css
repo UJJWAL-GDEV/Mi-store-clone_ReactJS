@@ -1,0 +1,17 @@
+.navCard{
+    cursor: pointer;
+    text-align: center;
+    width: 10vmax;
+}
+
+.navCard > img{
+    width: 10vmax;
+}
+
+.navCard > p{
+    margin: 0;
+}
+
+.navCard > span{
+    color: orangered;
+}
