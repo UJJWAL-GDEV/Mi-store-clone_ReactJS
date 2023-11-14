@@ -46,35 +46,35 @@ const NavOptions = ({miPhones, redmiPhones, tv, laptops, fitnessAndLifestyle, ho
     <div className="navOptions" >
       {
         miPhonesToggle ? miPhones.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null ||
 
         redmiPhonesToggle ? redmiPhones.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null ||
 
         tvToggle ? tv.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null ||
 
         laptopsToggle ? laptops.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
-        )) :null ||
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
+        )) : null ||
 
         fitnessAndLifestyleToggle ? fitnessAndLifestyle.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
-        )) :null ||
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
+        )) : null ||
 
         homeToggle ? home.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null ||
 
         audioToggle ? audio.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null ||
 
         accessoriesToggle ? accessories.map((item, index) => (
-          <NavCard name={item.name} price={item.price} image={item.image} key={item.image} index={index} />
+          <NavCard name={item.name} price={item.price} image={item.image} key={index} index={index} />
         )) : null
       }
     </div>

@@ -8,7 +8,7 @@ const Slider = (props) => {
         <Carousel fade>
         {
         props.slides.map((item) => (
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={3000} key={item}>
         <img
         className="d-block w-100"
         src={item}
